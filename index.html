@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/logo.ico" />
+ <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div>
+    <h1 id="titulo">Consulta de CEP</h1>
+
+  </div>
+    <div class="container">
+        <form>
+            <div class="campo">
+                <br>
+                <label for="cep">CEP</label>
+                <input type="text" class="form-control" maxlength="9" id="cep" required placeholder="Ex: 20271-130">
+                <small>No formato: xxxxx-xxx</small>
+            </div>
+            <div class="campo">
+                <label for="logradouro">Logradouro</label>
+                <input type="text" class="form-control" id="logradouro">
+            </div>
+            <div class="campo">
+                <label for="bairro">Bairro</label>
+                <input type="text" class="form-control" id="bairro">
+            </div>
+            <div class="campo">
+                <label for="localidade">Cidade</label>
+                <input type="text" class="form-control" id="localidade">
+            </div>
+            <div class="campo">
+                <label for="uf">UF</label>
+                <input type="text" class="form-control" id="uf">
+            </div>
+        </form>
+    </div>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
